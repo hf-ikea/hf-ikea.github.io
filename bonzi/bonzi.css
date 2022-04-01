@@ -5,27 +5,52 @@
     transform: translate(-50%, -50%);
 }
 
-.rainbow {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
-    letter-spacing: 5px;
+h1 {
+    font-family: 'Montserrat';
+    font-size: 5em;
 }
+h2 {
+    font-family: 'Lato';
+    font-size: 3em;
+}
+
 .rainbow_text_animated {
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    text-align: center;
+    letter-spacing: 5px;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: #45a3e5;
     animation: rainbow_animation 10s ease-in-out infinite;
     background-size: 400% 100%;
 }
 
 @keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 100% 0;
-    }
+    0%, 100%
+	{
+		color: #45a3e5;
+	}
+	12%
+	{
+		color: #3cc;
+	}
+	25%
+	{
+		color: #66bf39;
+	}
+	38%
+	{
+		color: #ffa602;
+	}
+	50%
+	{
+		color: #eb670f;
+	}
+	62%
+	{
+		color: #f35;
+	}
+	76%
+	{
+		color: #864cbf;
+	}
 }
