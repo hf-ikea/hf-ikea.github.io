@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-ul {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ ul {
     background-color: rgb(78, 78, 78);
 }
 
-li {
+.nav-item {
     float: right;
 }
 
@@ -28,4 +28,32 @@ li {
 
 .nav-link:hover {
     background-color: #111;
+}
+
+.section1, .section2, .section3 {
+    width: 33.333333333333333333333333333333%;
+    height: 33%;
+    float: left;
+}
+
+.section1, .section3 {
+    background-color: #4287f5;
+}
+
+.section2 {
+    background-color: #3067bf;
+}
+
+.section-header {
+    text-align: center;
+}
+
+h3 {
+    font-family: Montserrat;
+}
+
+p, li {
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+    font-family: Lato;
 }
