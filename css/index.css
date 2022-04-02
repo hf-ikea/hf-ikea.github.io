@@ -30,6 +30,10 @@ body {
     background-color: #323232;
 }
 
+.sections {
+    padding-top: 10px;
+}
+
 .section1, .section2, .section3 {
     width: 33.333333333333333333333333333333%;
     height: 33%;
@@ -48,12 +52,43 @@ body {
     text-align: center;
 }
 
-h3 {
+h1, h2, h3 {
     font-family: Montserrat;
+    text-align: center;
 }
 
 p, li {
     text-align: justify;
     padding: 5px 10px 5px 10px;
     font-family: Lato;
+}
+
+.welcome p {
+    text-align: center;
+}
+
+.welcome {
+    width: 40%;
+    margin: auto;
+}
+
+.card-request {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.card-request p {
+    text-align: center;
+}
+
+.btn {
+    background-color: #4287f5;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    text-decoration: none;
 }
