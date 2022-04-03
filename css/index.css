@@ -30,6 +30,10 @@ body {
     background-color: #323232;
 }
 
+.nav-active {
+    background-color: #323232;
+}
+
 .sections {
     padding-top: 10px;
 }
