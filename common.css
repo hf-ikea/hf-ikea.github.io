@@ -3,6 +3,11 @@ html, body {
     margin: 0%
 }
 
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
 #thewholedarnthing {
     background-color: rgb(180, 180, 180);
     display: flex;
