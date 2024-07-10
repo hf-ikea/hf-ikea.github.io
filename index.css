@@ -42,6 +42,10 @@ html, body {
     color: aquamarine;
 }
 
+#projectbox {
+    color: rgb(0, 79, 248);
+}
+
 #maincontent {
     flex-grow: 1;
 }
@@ -54,12 +58,12 @@ html, body {
     margin: 16px 16px 16px 16px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
-    color: rgb(0, 145, 194);
+    color: black;
 }
 
 #introtext {
     margin: 16px 16px 16px 16px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    color: rgb(0, 145, 194);
+    color: black;
 }
