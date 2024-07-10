@@ -64,6 +64,15 @@ p {
     flex-grow: 1;
 }
 
+#titler {
+    width: 100%;   
+}
+
+#titlereal {
+    margin: 16px;
+    font-size: 24px;
+}
+
 #footer{
     display: flex;
     background-color: #2e2e2e;
