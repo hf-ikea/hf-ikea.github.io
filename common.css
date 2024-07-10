@@ -9,7 +9,16 @@ html, body {
     flex-direction: column;
 }
 
+.navdiv {
+    display: flex;
+}
+
+#maincontent {
+    height: 100%;
+}
+
 .navbarr {
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
