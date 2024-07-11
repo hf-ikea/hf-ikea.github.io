@@ -9,6 +9,10 @@
     width: 100%;
 }
 
+.project {
+    width: 100%;
+}
+
 .projectname {
     margin: 0;
     font-size: 18px;
@@ -18,4 +22,12 @@
     height: 4px;
     background: rgb(48, 48, 48);
     margin-bottom: 16px;
+}
+
+.projectlink {
+    color: rgb(0, 105, 190);
+}
+
+.projectlink:visited {
+    color: rgb(0, 89, 161);
 }

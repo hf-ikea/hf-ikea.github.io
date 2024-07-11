@@ -3,7 +3,7 @@
 }
 
 .boximage {
-    width: 22%;
+    width: auto;
     height: min-content;
     margin: auto;
     border-style: solid;
