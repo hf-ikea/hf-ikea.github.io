@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 16px;
+    margin-right: 16px;
 }
 
 .project {
@@ -11,4 +12,10 @@
 .projectname {
     margin: 0;
     font-size: 18px;
+}
+
+.projectseparator {
+    height: 4px;
+    background: rgb(48, 48, 48);
+    margin-bottom: 16px;
 }
